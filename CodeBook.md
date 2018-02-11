@@ -32,7 +32,8 @@ After setting the source directory for the files, read into tables the data loca
     subject_test.txt
     x_test.txt
     y_test.txt
-
+    
+# Analysis perfomed on the dataset
 
 The R script run_analysis.R can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script itself):
 
@@ -49,7 +50,8 @@ The tidy_data.txt in this repository was created by running the run_analysis.R s
 
 This script requires the dplyr package (version 0.4.3 was used).
 
-# Time-domain signals
+# Addtional information (Time-domain signals)
+### If needed
 Average time-domain body acceleration in the X, Y and Z directions:
 
     timeDomainBodyAccelerometerMeanX
@@ -210,3 +212,6 @@ Average, standard deviation, and weighted average of the frequency components of
     frequencyDomainBodyGyroscopeJerkMagnitudeMean
     frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation
     frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency
+
+
+
